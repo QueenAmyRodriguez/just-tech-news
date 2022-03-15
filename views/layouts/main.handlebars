@@ -14,16 +14,20 @@
       <h1>
         <a href="/">Just Tech News</a>
       </h1>
+      <nav>
+        <button id="logout" class="btn-no-style">logout</button>
+        <a href="/login">login</a>
+      </nav>
     </header>
     <main>
-        {{!-- data that will be plugged in later (could be in a smaller template) --}}
+      {{!-- data that will be plugged in later (could be in a smaller template) --}}
       {{{ body }}}
     </main>
     <footer>
       Thanks for visiting!
     </footer>
   </div>
-
+<script src="/javascript/logout.js"></script>
 </body>
 
 </html>
